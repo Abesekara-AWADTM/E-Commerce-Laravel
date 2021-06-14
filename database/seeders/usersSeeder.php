@@ -19,18 +19,18 @@ class usersSeeder extends Seeder
         DB::table('users')-> insert([[
          'UserName'=>'Thilini Abesekara',
          'Email'=>'thiliniabesekara1998@gmail.com',
-         'Password'=>Hash::make('1234')
+         'password'=>Hash::make('1234')
         ],
         [
 
         'UserName'=>'Kamal Jayalal',
          'Email'=>'Kamal@gmail.com',
-         'Password'=>Hash::make('12345')
+         'password'=>Hash::make('12345')
         ],
         [
             'UserName'=>'Sujeewa Priynthi',
             'Email'=>'sujeewa123@gmail.com',
-            'Password'=>Hash::make('12345')
+            'password'=>Hash::make('12345')
 
 
         ],
@@ -39,7 +39,7 @@ class usersSeeder extends Seeder
 
         'UserName'=>'Pubudu Abesekara',
          'Email'=>'pubuduabesekara1997@gmail.com',
-         'Password'=>Hash::make('1234')
+         'password'=>Hash::make('1234')
         ],
     
         ]);
